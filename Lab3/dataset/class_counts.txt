@@ -1,0 +1,3 @@
+train: 9500 rows total | supine=2000, prone=2000, side=2000, sitting=2000, unknown=1500
+val: 2500 rows total | supine=500, prone=500, side=500, sitting=500, unknown=500
+test: 2500 rows total | supine=500, prone=500, side=500, sitting=500, unknown=500

@@ -1,0 +1,317 @@
+{
+ "fc0.3": {
+  "n_seeds": 3,
+  "params_total": 556971,
+  "params_trainable": 556971,
+  "train_acc_at_best": {
+   "mean": 0.9497263328603284,
+   "std": 0.021210923841490058
+  },
+  "val_acc": {
+   "mean": 0.5021379980563654,
+   "std": 0.0004955315367922808
+  },
+  "test_acc": {
+   "mean": 0.532915048301962,
+   "std": 0.008786672642212064
+  },
+  "best_epoch": {
+   "mean": 22.333333333333332,
+   "std": 3.0912061651652345
+  },
+  "min_val_loss": {
+   "mean": 1.485023030687931,
+   "std": 0.012502599981169722
+  },
+  "final_val_loss": {
+   "mean": 3.9413419970038794,
+   "std": 0.028633332466985753
+  },
+  "final_train_acc": {
+   "mean": 0.9951685924724644,
+   "std": 0.0012641588576166993
+  },
+  "final_val_acc": {
+   "mean": 0.4749271137026239,
+   "std": 0.005381095510167984
+  },
+  "train_seconds": {
+   "mean": 34.28037683169047,
+   "std": 0.13055668528505376
+  },
+  "fc_dropout": 0.3,
+  "conv_dropout": 0.0,
+  "val_loss_rise_fraction": 1.6540611933661853,
+  "overfitting_resolved": false
+ },
+ "fc0.5": {
+  "n_seeds": 3,
+  "params_total": 556971,
+  "params_trainable": 556971,
+  "train_acc_at_best": {
+   "mean": 0.786370700723022,
+   "std": 0.03953024661137721
+  },
+  "val_acc": {
+   "mean": 0.4992225461613217,
+   "std": 0.0015304194118584535
+  },
+  "test_acc": {
+   "mean": 0.5237526142814461,
+   "std": 0.011020978634845054
+  },
+  "best_epoch": {
+   "mean": 20.0,
+   "std": 2.943920288775949
+  },
+  "min_val_loss": {
+   "mean": 1.5437307285497905,
+   "std": 0.019302876198719947
+  },
+  "final_val_loss": {
+   "mean": 3.4483101684451682,
+   "std": 0.16222367989721082
+  },
+  "final_train_acc": {
+   "mean": 0.967430231772417,
+   "std": 0.002378980571968883
+  },
+  "final_val_acc": {
+   "mean": 0.48066083576287655,
+   "std": 0.01053962630618996
+  },
+  "train_seconds": {
+   "mean": 34.209058125813804,
+   "std": 0.035249124253557626
+  },
+  "fc_dropout": 0.5,
+  "conv_dropout": 0.0,
+  "val_loss_rise_fraction": 1.233751071136982,
+  "overfitting_resolved": false
+ },
+ "fc0.7": {
+  "n_seeds": 3,
+  "params_total": 556971,
+  "params_trainable": 556971,
+  "train_acc_at_best": {
+   "mean": 0.8119805392256234,
+   "std": 0.04482829231401551
+  },
+  "val_acc": {
+   "mean": 0.46520894071914487,
+   "std": 0.010105965419907235
+  },
+  "test_acc": {
+   "mean": 0.49546857882681006,
+   "std": 0.011931897223506833
+  },
+  "best_epoch": {
+   "mean": 48.333333333333336,
+   "std": 6.342099196813483
+  },
+  "min_val_loss": {
+   "mean": 1.6754580513497253,
+   "std": 0.02465282464256859
+  },
+  "final_val_loss": {
+   "mean": 2.705377854179479,
+   "std": 0.18911497450745085
+  },
+  "final_train_acc": {
+   "mean": 0.8598553956348401,
+   "std": 0.021759748276290125
+  },
+  "final_val_acc": {
+   "mean": 0.458114674441205,
+   "std": 0.011604165935295915
+  },
+  "train_seconds": {
+   "mean": 34.268142302831016,
+   "std": 0.053637662775042956
+  },
+  "fc_dropout": 0.7,
+  "conv_dropout": 0.0,
+  "val_loss_rise_fraction": 0.6147093936491368,
+  "overfitting_resolved": false
+ },
+ "fc0.5_conv0.1": {
+  "n_seeds": 3,
+  "params_total": 556971,
+  "params_trainable": 556971,
+  "train_acc_at_best": {
+   "mean": 0.7543752956280829,
+   "std": 0.0583894396685724
+  },
+  "val_acc": {
+   "mean": 0.4887269193391643,
+   "std": 0.004070046956534872
+  },
+  "test_acc": {
+   "mean": 0.5075191713972712,
+   "std": 0.008423595440211337
+  },
+  "best_epoch": {
+   "mean": 25.666666666666668,
+   "std": 4.784233364802441
+  },
+  "min_val_loss": {
+   "mean": 1.5320439582431746,
+   "std": 0.017769230402592772
+  },
+  "final_val_loss": {
+   "mean": 1.9325288021877276,
+   "std": 0.046270769143309486
+  },
+  "final_train_acc": {
+   "mean": 0.943611054801,
+   "std": 0.013987023532980196
+  },
+  "final_val_acc": {
+   "mean": 0.4751214771622935,
+   "std": 0.005604614521009207
+  },
+  "train_seconds": {
+   "mean": 34.9451273282369,
+   "std": 0.03934091839922376
+  },
+  "fc_dropout": 0.5,
+  "conv_dropout": 0.1,
+  "val_loss_rise_fraction": 0.26140558290755367,
+  "overfitting_resolved": false
+ },
+ "fc0.5_conv0.2": {
+  "n_seeds": 3,
+  "params_total": 556971,
+  "params_trainable": 556971,
+  "train_acc_at_best": {
+   "mean": 0.7757956618690452,
+   "std": 0.05978077643083378
+  },
+  "val_acc": {
+   "mean": 0.4827016520894072,
+   "std": 0.009394010475097817
+  },
+  "test_acc": {
+   "mean": 0.5059257046110944,
+   "std": 0.012178722112219436
+  },
+  "best_epoch": {
+   "mean": 44.333333333333336,
+   "std": 9.977753031397176
+  },
+  "min_val_loss": {
+   "mean": 1.5448065673412918,
+   "std": 0.0255717307686526
+  },
+  "final_val_loss": {
+   "mean": 1.6492737913734132,
+   "std": 0.05732261616325834
+  },
+  "final_train_acc": {
+   "mean": 0.854348266774782,
+   "std": 0.017633413946342786
+  },
+  "final_val_acc": {
+   "mean": 0.4707482993197279,
+   "std": 0.015908741190598905
+  },
+  "train_seconds": {
+   "mean": 34.9884737332662,
+   "std": 0.04689819989016157
+  },
+  "fc_dropout": 0.5,
+  "conv_dropout": 0.2,
+  "val_loss_rise_fraction": 0.06762479279973288,
+  "overfitting_resolved": true
+ },
+ "fc0.3_conv0.2": {
+  "n_seeds": 3,
+  "params_total": 556971,
+  "params_trainable": 556971,
+  "train_acc_at_best": {
+   "mean": 0.808635718629637,
+   "std": 0.02126123644154937
+  },
+  "val_acc": {
+   "mean": 0.4799805636540331,
+   "std": 0.009646969472286387
+  },
+  "test_acc": {
+   "mean": 0.5040334628025097,
+   "std": 0.0015996791558817833
+  },
+  "best_epoch": {
+   "mean": 29.666666666666668,
+   "std": 0.4714045207910317
+  },
+  "min_val_loss": {
+   "mean": 1.5348575706963867,
+   "std": 0.01524189782555961
+  },
+  "final_val_loss": {
+   "mean": 1.8538770566297111,
+   "std": 0.01453599695792677
+  },
+  "final_train_acc": {
+   "mean": 0.9608757348469491,
+   "std": 0.012131127053292142
+  },
+  "final_val_acc": {
+   "mean": 0.4614188532555879,
+   "std": 0.005584356811878962
+  },
+  "train_seconds": {
+   "mean": 35.110008001327515,
+   "std": 0.21582065540685247
+  },
+  "fc_dropout": 0.3,
+  "conv_dropout": 0.2,
+  "val_loss_rise_fraction": 0.20784956990411874,
+  "overfitting_resolved": false
+ },
+ "no_dropout": {
+  "n_seeds": 3,
+  "params_total": 556971,
+  "params_trainable": 556971,
+  "train_acc_at_best": {
+   "mean": 0.7345766605851747,
+   "std": 0.06655076456739796
+  },
+  "val_acc": {
+   "mean": 0.48143828960155494,
+   "std": 0.004727069584845608
+  },
+  "test_acc": {
+   "mean": 0.5028383627128772,
+   "std": 0.011635615422316442
+  },
+  "best_epoch": {
+   "mean": 8.666666666666666,
+   "std": 1.247219128924647
+  },
+  "min_val_loss": {
+   "mean": 1.5602980588684972,
+   "std": 0.017382636401076602
+  },
+  "final_val_loss": {
+   "mean": 7.011374802955501,
+   "std": 0.05869027177652216
+  },
+  "final_train_acc": {
+   "mean": 1.0,
+   "std": 0.0
+  },
+  "final_val_acc": {
+   "mean": 0.4707482993197279,
+   "std": 0.004365612720158643
+  },
+  "train_seconds": {
+   "mean": 34.07482441266378,
+   "std": 0.017427857457715492
+  },
+  "fc_dropout": 0.0,
+  "conv_dropout": 0.0,
+  "val_loss_rise_fraction": 3.4936124627624263,
+  "overfitting_resolved": false
+ }
+}

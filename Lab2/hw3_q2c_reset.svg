@@ -1,0 +1,57 @@
+<svg viewBox="0 0 900 530" xmlns="http://www.w3.org/2000/svg" font-family="'Times New Roman', Times, serif">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#111"/>
+    </marker>
+    <marker id="arrR" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#c0392b"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="900" height="530" fill="#ffffff"/>
+  <rect x="20" y="20" width="840" height="450" fill="none" stroke="#111" stroke-width="2"/>
+
+  <!-- declarations -->
+  <text x="40" y="50" font-size="17" fill="#111">continuous variables: <tspan font-style="italic">r, s</tspan> ∈ ℝ</text>
+  <text x="40" y="74" font-size="17" fill="#111">input: <tspan font-style="italic">reset</tspan> : pure</text>
+  <text x="40" y="98" font-size="17" fill="#111">output: <tspan font-style="italic">y</tspan> ∈ ℝ</text>
+
+  <!-- modes -->
+  <rect x="120" y="190" width="140" height="90" rx="14" fill="#fff" stroke="#111" stroke-width="2.4"/>
+  <text x="190" y="218" font-size="18" text-anchor="middle" fill="#111" font-family="Arial, Helvetica, sans-serif">two</text>
+  <text x="190" y="244" font-size="18" text-anchor="middle" font-style="italic" fill="#111">ṡ(t) = 1</text>
+  <text x="190" y="266" font-size="18" text-anchor="middle" font-style="italic" fill="#111">ṙ(t) = 1</text>
+
+  <rect x="600" y="190" width="140" height="90" rx="14" fill="#fff" stroke="#111" stroke-width="2.4"/>
+  <text x="670" y="218" font-size="18" text-anchor="middle" fill="#111" font-family="Arial, Helvetica, sans-serif">one</text>
+  <text x="670" y="244" font-size="18" text-anchor="middle" font-style="italic" fill="#111">ṡ(t) = 1</text>
+  <text x="670" y="266" font-size="18" text-anchor="middle" font-style="italic" fill="#111">ṙ(t) = 1</text>
+
+  <!-- initial arrow into "one" -->
+  <path d="M 815 330 C 795 300, 775 285, 744 270" fill="none" stroke="#111" stroke-width="2.2" marker-end="url(#arr)"/>
+  <text x="770" y="356" font-size="17" font-style="italic" fill="#111">s(0) := 0</text>
+  <text x="770" y="378" font-size="17" font-style="italic" fill="#111">r(0) := 0</text>
+
+  <!-- one -> two (original) -->
+  <path d="M 598 215 Q 430 140 264 215" fill="none" stroke="#111" stroke-width="2.2" marker-end="url(#arr)"/>
+  <text x="430" y="122" font-size="17" text-anchor="middle" font-style="italic" fill="#111">r(t) = 1 ∧ ¬reset  /  y := s(t)</text>
+  <text x="430" y="146" font-size="17" text-anchor="middle" font-style="italic" fill="#111">r(t) := 0</text>
+
+  <!-- two -> one (original) -->
+  <path d="M 264 262 Q 430 330 598 262" fill="none" stroke="#111" stroke-width="2.2" marker-end="url(#arr)"/>
+  <text x="430" y="322" font-size="17" text-anchor="middle" font-style="italic" fill="#111">r(t) = 3 ∧ ¬reset  /  y := s(t)</text>
+  <text x="430" y="346" font-size="17" text-anchor="middle" font-style="italic" fill="#111">r(t) := 0</text>
+
+  <!-- NEW: two -> one on reset -->
+  <path d="M 190 282 C 220 430, 640 430, 670 282" fill="none" stroke="#c0392b" stroke-width="2.4" marker-end="url(#arrR)"/>
+  <text x="430" y="428" font-size="17" text-anchor="middle" font-style="italic" fill="#c0392b">reset  /  s(t) := 0;  r(t) := 0</text>
+
+  <!-- NEW: self-loop on one for reset -->
+  <path d="M 640 190 C 600 105, 740 105, 700 190" fill="none" stroke="#c0392b" stroke-width="2.4" marker-end="url(#arrR)"/>
+  <text x="790" y="88" font-size="17" text-anchor="middle" font-style="italic" fill="#c0392b">reset  /  s(t) := 0;  r(t) := 0</text>
+
+  <!-- output port -->
+  <polygon points="860,223 884,235 860,247" fill="#111"/>
+  <text x="872" y="213" font-size="19" text-anchor="middle" font-style="italic" fill="#111">y</text>
+
+  <text x="450" y="500" font-size="16" text-anchor="middle" fill="#444">Red = new transitions. “∧ ¬reset” gives reset priority over the old guards; y is absent on reset.</text>
+</svg>

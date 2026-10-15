@@ -1,0 +1,61 @@
+<svg viewBox="0 0 900 480" xmlns="http://www.w3.org/2000/svg" font-family="'Times New Roman', Times, serif">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#111"/>
+    </marker>
+    <marker id="arrB" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#c0392b"/>
+    </marker>
+  </defs>
+  <rect width="900" height="480" fill="#fff"/>
+
+  <!-- guide lines -->
+  <g stroke="#ddd" stroke-width="1" stroke-dasharray="3 4">
+    <line x1="100" y1="60" x2="100" y2="400"/><line x1="170" y1="60" x2="170" y2="400"/>
+    <line x1="240" y1="60" x2="240" y2="400"/><line x1="310" y1="60" x2="310" y2="400"/>
+    <line x1="380" y1="60" x2="380" y2="400"/><line x1="450" y1="60" x2="450" y2="400"/>
+    <line x1="520" y1="60" x2="520" y2="400"/><line x1="590" y1="60" x2="590" y2="400"/>
+    <line x1="660" y1="60" x2="660" y2="400"/><line x1="730" y1="60" x2="730" y2="400"/>
+    <line x1="800" y1="60" x2="800" y2="400"/>
+  </g>
+
+  <!-- row: a -->
+  <text x="40" y="112" font-size="20" font-style="italic" fill="#111">a</text>
+  <line x1="100" y1="120" x2="830" y2="120" stroke="#111" stroke-width="1.6"/>
+  <g stroke="#111" stroke-width="2.2" marker-end="url(#arr)">
+    <line x1="100" y1="120" x2="100" y2="72"/><line x1="170" y1="120" x2="170" y2="72"/>
+    <line x1="240" y1="120" x2="240" y2="72"/><line x1="310" y1="120" x2="310" y2="72"/>
+    <line x1="380" y1="120" x2="380" y2="72"/><line x1="450" y1="120" x2="450" y2="72"/>
+    <line x1="520" y1="120" x2="520" y2="72"/><line x1="590" y1="120" x2="590" y2="72"/>
+    <line x1="660" y1="120" x2="660" y2="72"/><line x1="730" y1="120" x2="730" y2="72"/>
+    <line x1="800" y1="120" x2="800" y2="72"/>
+  </g>
+
+  <!-- row: mode -->
+  <text x="40" y="240" font-size="20" fill="#111">mode</text>
+  <text x="84" y="215" font-size="15" text-anchor="end" fill="#555" font-family="Arial, sans-serif">s1</text>
+  <text x="84" y="265" font-size="15" text-anchor="end" fill="#555" font-family="Arial, sans-serif">s2</text>
+  <path d="M100 210 H170 V260 H240 V210 H310 V260 H380 V210 H450 V260 H520 V210 H590 V260 H660 V210 H730 V260 H800 V210 H835"
+        fill="none" stroke="#2a5db0" stroke-width="2.6"/>
+
+  <!-- row: b -->
+  <text x="40" y="352" font-size="20" font-style="italic" fill="#111">b</text>
+  <line x1="100" y1="360" x2="830" y2="360" stroke="#111" stroke-width="1.6"/>
+  <g stroke="#c0392b" stroke-width="2.8" marker-end="url(#arrB)">
+    <line x1="170" y1="360" x2="170" y2="308"/><line x1="310" y1="360" x2="310" y2="308"/>
+    <line x1="450" y1="360" x2="450" y2="308"/><line x1="590" y1="360" x2="590" y2="308"/>
+    <line x1="730" y1="360" x2="730" y2="308"/>
+  </g>
+
+  <!-- time axis -->
+  <line x1="100" y1="410" x2="830" y2="410" stroke="#111" stroke-width="1.6" marker-end="url(#arr)"/>
+  <g font-size="16" text-anchor="middle" fill="#111">
+    <text x="100" y="432">0</text><text x="170" y="432">1</text><text x="240" y="432">2</text>
+    <text x="310" y="432">3</text><text x="380" y="432">4</text><text x="450" y="432">5</text>
+    <text x="520" y="432">6</text><text x="590" y="432">7</text><text x="660" y="432">8</text>
+    <text x="730" y="432">9</text><text x="800" y="432">10</text>
+  </g>
+  <text x="845" y="416" font-size="17" font-style="italic" fill="#111">t</text>
+
+  <text x="450" y="462" font-size="16" text-anchor="middle" fill="#111">b is present exactly at t = 1, 3, 5, 7, 9, …   (s1→s2 at odd t;  s2→s1 at even t, triggered by a)</text>
+</svg>
